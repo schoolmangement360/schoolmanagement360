@@ -18,7 +18,7 @@ namespace S360BusinessLogic
 
         public static Student FirstStudent()
         {
-            Student stu = repo.GetAll().Where(l => l.MotherName == "Cicy").FirstOrDefault();
+            Student stu = repo.GetAll().Where(l => l.MotherName == "Paul").FirstOrDefault();
             return stu;
         }
     }
