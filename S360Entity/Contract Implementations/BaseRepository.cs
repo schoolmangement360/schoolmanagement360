@@ -89,6 +89,12 @@ namespace S360Entity
             return dbSet.AsEnumerable().ToList();
         }
         
+        /// <summary>
+        /// Excute Query And Get Result
+        /// </summary>
+        /// <param name="query">Query String</param>
+        /// <param name="parameters">Inut Parameters</param>
+        /// <returns></returns>
         public IEnumerable<T> DoQuery(string query, object[] parameters)
         {
             return dbSet.SqlQuery(query, parameters);

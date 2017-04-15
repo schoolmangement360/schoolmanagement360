@@ -11,3 +11,16 @@ C:\S360\S360\S360BusinessLogic\bin\Debug\EntityFramework.xml
 C:\S360\S360\S360BusinessLogic\bin\Debug\S360BusinessLogic.dll.config
 C:\S360\S360\S360BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
 C:\S360\S360\S360BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360BusinessLogic.dll.config
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360BusinessLogic.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360BusinessLogic.pdb
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\EntityFramework.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360Entity.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360Entity.pdb
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360Entity.dll.config
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\EntityFramework.xml
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\S360\schoolmanagement360\S360BusinessLogic\obj\Debug\S360BusinessLogic.csprojResolveAssemblyReference.cache
+C:\S360\schoolmanagement360\S360BusinessLogic\obj\Debug\S360BusinessLogic.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\obj\Debug\S360BusinessLogic.pdb
