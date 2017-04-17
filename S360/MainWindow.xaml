@@ -7,7 +7,7 @@
         <TextBlock Name="firstname" FontSize="40" />
         <TextBlock Name="RegNo" FontSize="40" />
         <TextBlock Name="FatherName" FontSize="40" />
-        <TextBlock Name="Age" FontSize="40" />
+        <TextBlock Name="Age" FontSize="40" /> 
         </StackPanel>
     </Grid>
 </Window>
