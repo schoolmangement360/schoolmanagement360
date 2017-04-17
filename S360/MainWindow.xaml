@@ -4,9 +4,10 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel>
-        <TextBlock Name="firstname" FontSize="40" />
-        <TextBlock Name="RegNo" FontSize="40" />
-        <TextBlock Name="FatherName" FontSize="40" />
+            <TextBlock Name="firstname" FontSize="40" />
+            <TextBlock Name="RegNo" FontSize="40" />
+            <Button Content="Click On me" Width="200" Height="60" Click="Button_Click" Margin="158,0,159,0" />
+            <TextBlock Name="FatherName" FontSize="40" />
         </StackPanel>
     </Grid>
 </Window>

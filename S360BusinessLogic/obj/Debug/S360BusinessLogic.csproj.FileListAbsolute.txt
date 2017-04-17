@@ -24,3 +24,8 @@ C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\EntityFramework.SqlServe
 C:\S360\schoolmanagement360\S360BusinessLogic\obj\Debug\S360BusinessLogic.csprojResolveAssemblyReference.cache
 C:\S360\schoolmanagement360\S360BusinessLogic\obj\Debug\S360BusinessLogic.dll
 C:\S360\schoolmanagement360\S360BusinessLogic\obj\Debug\S360BusinessLogic.pdb
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\NLog.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\NLog.xml
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\NLog.config
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360Logging.dll
+C:\S360\schoolmanagement360\S360BusinessLogic\bin\Debug\S360Logging.pdb

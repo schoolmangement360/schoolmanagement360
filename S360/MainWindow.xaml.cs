@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using S360BusinessLogic;
+using S360Logging;
 
 namespace S360
 {
@@ -24,11 +25,26 @@ namespace S360
         public MainWindow()
         {
             InitializeComponent();
-            S360Repository test = new S360Repository();
-            var testing = S360Repository.FirstStudent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            StudentBusinessLogic test = new StudentBusinessLogic();
+            var testing = test.FirstStudent();
             firstname.Text = testing.Name;
             FatherName.Text = testing.FatherName;
             RegNo.Text = testing.RegNo;
+
+            ////try
+            ////{
+            ////    S360Log.Instance.Debug("We're going to throw an exception now.");
+            ////    S360Log.Instance.Warn("It's gonna happen!!");
+            ////    throw new ApplicationException();
+            ////}
+            ////catch (ApplicationException ae)
+            ////{
+            ////    S360Log.Instance.ErrorException("Error doing something...", ae);
+            ////}
         }
     }
 }

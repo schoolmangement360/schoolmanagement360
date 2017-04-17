@@ -1,0 +1,8 @@
+2017-04-18 00:14:10.2825
+BUSINESS LAYER Error doing something...
+System.ApplicationException: Error in the application.
+   at S360BusinessLogic.StudentBusinessLogic.FirstStudent() in C:\S360\schoolmanagement360\S360BusinessLogic\BusinessLogicClasses\StudentBusinessLogic.cs:line 27
+2017-04-18 00:14:10.5935
+Error doing something...
+System.ApplicationException: Error in the application.
+   at S360.MainWindow.Button_Click(Object sender, RoutedEventArgs e) in C:\S360\schoolmanagement360\S360\MainWindow.xaml.cs:line 42

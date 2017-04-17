@@ -1,0 +1,8 @@
+C:\S360\schoolmanagement360\S360Logging\bin\Debug\NLog.config
+C:\S360\schoolmanagement360\S360Logging\bin\Debug\S360Logging.dll
+C:\S360\schoolmanagement360\S360Logging\bin\Debug\S360Logging.pdb
+C:\S360\schoolmanagement360\S360Logging\bin\Debug\NLog.dll
+C:\S360\schoolmanagement360\S360Logging\bin\Debug\NLog.xml
+C:\S360\schoolmanagement360\S360Logging\obj\Debug\S360Logging.dll
+C:\S360\schoolmanagement360\S360Logging\obj\Debug\S360Logging.pdb
+C:\S360\schoolmanagement360\S360Logging\obj\Debug\S360Logging.csprojResolveAssemblyReference.cache
