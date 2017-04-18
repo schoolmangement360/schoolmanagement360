@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Students\StudentAdd.xaml.cs">
+      <DependentUpon>StudentAdd.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +79,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Students\StudentAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -110,6 +117,10 @@
       <Project>{bc610707-0b51-48fd-9d64-7710baf58aab}</Project>
       <Name>S360BusinessLogic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\S360Controlls\S360Controlls.csproj">
+      <Project>{b77cb99f-4ebd-4332-8a35-c3b83abfffeb}</Project>
+      <Name>S360Controlls</Name>
+    </ProjectReference>
     <ProjectReference Include="..\S360Entity\S360Entity.csproj">
       <Project>{2cefcc65-b41f-4f91-aea4-ebbf7860abdb}</Project>
       <Name>S360Entity</Name>
@@ -119,6 +130,7 @@
       <Name>S360Logging</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
