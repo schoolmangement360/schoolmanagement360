@@ -11,6 +11,30 @@ namespace S360Controlls.BasicControls
     public class S360TextBlock : TextBlock
     {
         /// <summary>
+        /// Default constructor
+        /// </summary>
+        public S360TextBlock()
+        {
+            InitControll();
+        }
+        /// <summary>
+        /// Parameterised constructor
+        /// </summary>
+        /// <param name="inline"></param>
+        public S360TextBlock(System.Windows.Documents.Inline inline)
+            : base(inline)
+        {
+            InitControll();
+        }
+        /// <summary>
+        /// Method to set default values to control properties
+        /// </summary>
+        private void InitControll()
+        {
+            this.FontSize = 15;
+            this.FontStyle = System.Windows.FontStyles.Normal;
+        }
+        /// <summary>
         /// Overridden method to set background color as Aqua
         /// when mouse focus on control
         /// </summary>

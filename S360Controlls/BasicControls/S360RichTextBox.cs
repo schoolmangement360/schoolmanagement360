@@ -12,6 +12,22 @@ namespace S360Controlls.BasicControls
 {
     public class S360RichTextBox : RichTextBox
     {
+        public S360RichTextBox()
+        {
+            InitControl();
+        }
+
+        public S360RichTextBox(System.Windows.Documents.FlowDocument document)
+            : base(document)
+        {
+            InitControl();
+        }
+
+        private void InitControl()
+        {
+            this.FontSize = 13;
+            this.FontStyle = System.Windows.FontStyles.Normal;
+        }
         /// <summary>
         /// Overridden method to set background color as Aqua
         /// when mouse focus on control

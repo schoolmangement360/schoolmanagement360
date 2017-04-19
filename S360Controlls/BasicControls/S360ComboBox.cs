@@ -10,6 +10,11 @@ namespace S360Controlls.BasicControls
 {
     public class S360ComboBox : ComboBox
     {
+        public S360ComboBox()
+        {
+            this.FontSize = 13;
+            this.FontStyle = System.Windows.FontStyles.Normal;
+        }
         /// <summary>
         /// Overridden method to set background color as Aqua
         /// when mouse focus on control

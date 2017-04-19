@@ -10,6 +10,11 @@ namespace S360Controlls.BasicControls
 {
     public class S360TextBox : TextBox
     {
+        public S360TextBox()
+        {
+            this.FontSize = 13;
+            this.FontStyle = System.Windows.FontStyles.Normal;
+        }
         /// <summary>
         /// Overridden method to set background color as Aqua
         /// when mouse focus on control

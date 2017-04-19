@@ -22,6 +22,7 @@ namespace S360.Students
         public StudentAdd()
         {
             InitializeComponent();
+
         }
     }
 }
